@@ -16,7 +16,7 @@ export function About() {
     <Section
       id="about"
       eyebrow="About"
-      title="Engineering clarity, product polish, and systems taste."
+      title=""
       description="Ayush works across backend engineering, frontend systems, AI developer tooling, scalable infrastructure, and competitive programming. The through-line is simple: build tools and systems that stay useful when the scale gets real."
     >
       <motion.div

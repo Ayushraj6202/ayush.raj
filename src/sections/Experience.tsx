@@ -6,7 +6,7 @@ import { fadeUp } from "@/animations/variants";
 
 export function Experience() {
   return (
-    <Section id="experience" eyebrow="Experience" title="Enterprise AI tooling and scalable frontend architecture.">
+    <Section id="experience" eyebrow="Experience" title="">
       <div className="relative border-l border-border pl-6 sm:pl-10">
         {experience.map((item) => (
           <motion.article

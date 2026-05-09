@@ -13,8 +13,8 @@ export function Projects() {
     <Section
       id="projects"
       eyebrow="Projects"
-      title="Project panels with product logic under the hood."
-      description="A concise build log of systems that connect frontend craft with backend behavior, APIs, auth, analytics, and operational workflows."
+      title=""
+      description=""
     >
       <div className="grid gap-4">
         {projects.map((project, index) => {

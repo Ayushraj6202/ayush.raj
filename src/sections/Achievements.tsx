@@ -7,7 +7,7 @@ import { fadeUp, stagger } from "@/animations/variants";
 
 export function Achievements() {
   return (
-    <Section id="achievements" eyebrow="Achievements" title="Competitive programming signal with measurable depth.">
+    <Section id="achievements" eyebrow="Achievements" title="Competitive programming">
       <motion.div variants={stagger} initial="hidden" whileInView="visible" viewport={{ once: true }} className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
         {achievements.map((achievement) => {
           const Icon = achievement.icon;

@@ -8,8 +8,8 @@ export function Resume() {
     <Section
       id="resume"
       eyebrow="Resume"
-      title="A document viewer designed like an engineering dossier."
-      description="Preview the resume surface, open it fullscreen, or launch the Drive document directly."
+      title=""
+      description=""
     >
       <div className="overflow-hidden rounded-lg border border-border bg-card shadow-terminal">
         <div className="flex flex-col gap-3 border-b border-border bg-muted/25 px-4 py-3 sm:flex-row sm:items-center sm:justify-between">

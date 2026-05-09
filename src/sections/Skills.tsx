@@ -6,7 +6,7 @@ import { fadeUp, stagger } from "@/animations/variants";
 
 export function Skills() {
   return (
-    <Section id="skills" eyebrow="Skills">
+    <Section id="skills" eyebrow="Skills" title="" description="">
       <motion.div variants={stagger} initial="hidden" whileInView="visible" viewport={{ once: true }} className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
         {skillGroups.map((group) => {
           const Icon = group.icon;

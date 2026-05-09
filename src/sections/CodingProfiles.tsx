@@ -8,7 +8,7 @@ import { fadeUp, stagger } from "@/animations/variants";
 
 export function CodingProfiles() {
   return (
-    <Section id="profiles" eyebrow="Profiles" title="Public proof-of-work across code and contests.">
+    <Section id="profiles" eyebrow="Profiles" title="">
       <motion.div variants={stagger} initial="hidden" whileInView="visible" viewport={{ once: true }} className="grid gap-4 md:grid-cols-2">
         {codingProfiles.map((profile) => (
           <motion.div key={profile.platform} variants={fadeUp}>
